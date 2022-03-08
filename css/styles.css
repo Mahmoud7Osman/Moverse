@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+i{
+    font-size: 25px;
+    margin: 0;
+    color: rgb(0, 183, 255);
+    transition: 0.3s;
+}
+i:hover{
+    transform: scale(1.5) rotate(360deg);
+}
+.navigation{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(175, 236, 255);
+    justify-content: space-between;
+    user-select: none;
+    z-index: 100;
+    padding: 0;
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+}
+.navigation li{
+    display: inline-block;
+}
+
+.navigation a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: blue;
+    padding: 12px;
+    transition: 0.3s;
+}
+.navigation a:hover{
+    color: rgb(255, 255, 255);
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+    animation-name: intro;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 0;
+}
+.logo{
+    padding: 60px 0px 0px 50px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+.name{
+    display: inline-block;
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right, rgb(94, 196, 255), rgb(0, 60, 255), lightblue);
+    -webkit-background-clip: text;
+    color: transparent;
+    user-select: none;
+}
+.description{
+    display: inline-block;
+    margin: 0;
+    width: 500px;
+    color: rgb(35, 164, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#startbtn{
+    padding: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, rgb(0, 191, 255), rgb(248, 248, 248));
+    color: rgb(0, 75, 88);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#startbtn:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to bottom right, rgb(0, 191, 255), rgb(0, 225, 255));
+}
+
+
+
+
+
+
+@keyframes intro {
+    to{
+        color: rgb(255, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
