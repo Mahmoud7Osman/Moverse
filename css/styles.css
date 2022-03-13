@@ -150,7 +150,7 @@ i:hover{
 }
 #ourproducts{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: rgb(50, 180, 255);
 }
 #products{
@@ -170,7 +170,7 @@ i:hover{
     font-size: 30px;
     margin-left: 100px;
     padding: 20px;
-    width: 800px;
+    width: 1000px;
     border-width: 1px;
     border-style: solid;
     border-radius: 25px;
@@ -178,8 +178,8 @@ i:hover{
 .products a{
     padding: 20px;
     margin-left: 100px;
-    margin-top: 30px;
-    display: block;
+    margin-top: 10px;
+    display: inline-block;
     width: 150px;
     text-align: center;
     text-decoration: none;
@@ -195,6 +195,33 @@ i:hover{
 .products a:hover{
     transform: scale(1.1);
     background-color: rgb(0, 162, 255);
+}
+.ft{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: linear-gradient(to top right, white, rgb(0, 191, 255));
+}
+.contactus{
+    display: flex;
+    background-color: rgb(0, 191, 255);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 31%;
+    padding: 10px;
+    transition: 0.3s;
+}
+.contactus:hover{
+    transform: scale(1.1);
+}
+.contactus i{
+    color: rgb(231, 233, 255);
+    text-decoration: none;
+    font-size: 70px;
+    margin: 20px;
 }
 /*
 .product{
