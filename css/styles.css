@@ -250,7 +250,8 @@ i:hover{
 }
 */
 #startbtn:hover {
-    transform: scale(1.1);
+    
+    background-image: linear-gradient(lightblue, lightblue);
 }
 
 
@@ -270,7 +271,68 @@ i:hover{
 
 
 
-
+@media screen and (max-width: 600px){
+    .navigation{
+        font-size: 13px;
+        width: 100vw;
+    }
+    .navigation i{
+        display: none;
+    }
+    .navigation ul{
+        padding: 10px;
+    }
+    .navigation a{
+        padding: 5px;
+    }
+    .main{
+        padding: 0;
+        margin: 0;
+    }
+    .logo h1{
+        font-size: 50px;
+    }
+    .logo p{
+        font-size: 20px;
+        word-wrap: normal;
+        padding: 5px;
+        width: 50%;
+    }
+    .logo{
+        padding: 20% 0 0 10%;
+        word-wrap: normal;
+    }
+    #services{
+        flex-wrap: wrap;
+        height: 250vh;
+    }
+    .card{
+        min-width: 50%;
+        flex-wrap: wrap;
+    }
+    #ourproducts{
+        height: 200vh;
+    }
+    #ourproducts p{
+        font-size: 20px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    #ourproducts a{
+        padding: 10px;
+        width: 50% !important;
+    }
+    #contactus{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 30%;
+        height: 70%;
+    }
+    .ft{
+        height: 110vh;
+    }
+}
 
 
 
